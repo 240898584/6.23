@@ -9,6 +9,7 @@ public class Blood : MonoBehaviour
     GameObject bloodClone;
     GameObject game;
     public float speed = 2f;
+    public float lifeTime = 5f;
     // Start is called before the first frame update
     void Start()
     {
