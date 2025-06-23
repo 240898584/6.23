@@ -8,6 +8,7 @@ public class Blood : MonoBehaviour
     public GameObject blood;
     GameObject bloodClone;
     GameObject game;
+    public float speed = 2f;
     // Start is called before the first frame update
     void Start()
     {
