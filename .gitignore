@@ -4,3 +4,6 @@ Library
 *.sln
 *.csproj
 obj
+Logs
+Temp
+.vsconfig

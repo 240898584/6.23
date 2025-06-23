@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Blood : MonoBehaviour
 {
+    public GameObject blood;
     GameObject game;
     // Start is called before the first frame update
     void Start()
