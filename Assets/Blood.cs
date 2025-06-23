@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Blood : MonoBehaviour
 {
-
+    GameObject game;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,5 +16,6 @@ public class Blood : MonoBehaviour
     {
         
         transform.LookAt(Camera.main.transform.position);
+        //game = transform.position += transform.forward * Time.deltaTime * 2f;
     }
 }
